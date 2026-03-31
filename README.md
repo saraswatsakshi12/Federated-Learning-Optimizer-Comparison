@@ -67,12 +67,7 @@ federated-learning-optimizer-comparison/
 │   └── fed_logs_abc_optimizer.xls               # ABC run results
 │
 ├── results/                                     # Saved plots (auto-generated)
-│
-├── requirements.txt
-└── README.md
-```
 
----
 
 ## Setup
 
