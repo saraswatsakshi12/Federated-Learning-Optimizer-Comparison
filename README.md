@@ -1,5 +1,7 @@
 # Federated-Learning-Optimizer-Comparison
 Decentralized Federated Learning on RSSCN7 using EfficientNet-B0. Compares GWO, PSO, and ABC optimizers for model selection in a fog-cloud simulation with 10 drones, FogBroker filtering, and FedAvg aggregation. Research project — NIT Delhi Internship 2025.
+
+
 ## Overview
 
 This project implements a **decentralized federated learning** system where 10 drones collaboratively train an image classification model **without sharing raw data**. Three bio-inspired optimizers are compared for selecting the best local models before aggregation:
@@ -67,7 +69,12 @@ federated-learning-optimizer-comparison/
 │   └── fed_logs_abc_optimizer.xls               # ABC run results
 │
 ├── results/                                     # Saved plots (auto-generated)
+│
+├── requirements.txt
+└── README.md
+```
 
+---
 
 ## Setup
 
@@ -158,4 +165,3 @@ Candidate subsets of models act as particles. Over multiple iterations, each par
 - NumPy, Matplotlib
 - Kaggle API
 
----
